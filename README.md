@@ -27,3 +27,7 @@ and then
 sudo apt-get install mplayer
 
 sudo pip3 install mutagen
+
+to run at Pi boot add the following line to the end of /etc/xdg/lxsession/LXDE-pi/autostart
+
+@/usr/bin/python3 /home/pi/2B_MP3_player.py
