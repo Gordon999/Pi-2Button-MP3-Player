@@ -2,7 +2,7 @@
 
 A simple MP3 Player using a Raspberry Pi and 2 buttons, and 3 LEDs.
 
-All buttons are connected between gpios and gnd (1k resistors in series are usually recommended), LEDs are connected between gpios, with suitable resistors.
+All buttons are connected between gpios and gnd (1k resistors in series are usually recommended), LEDs are connected between gpios and gnd, with suitable resistors.
 
 2 button switches, 1st for PLAY/STOP/SHUTDOWN, the 2nd for SHUFFLE/PREVIOUS TRACK/REBOOT
 
