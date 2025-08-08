@@ -45,3 +45,17 @@ sudo apt-get install mplayer
 sudo pip3 install mutagen --break-system-packages (or use a venv)
 
 to run python3 2B_MP3_player.py
+
+starting options:
+
+# if using BLUETOOTH speaker set use_BT = 1
+
+use_BT = 0
+
+# to set default SHUFFLE set shuffled = 1
+
+shuffled = 0
+
+# to play at startup set Con_Play = 1
+
+Con_Play = 0
