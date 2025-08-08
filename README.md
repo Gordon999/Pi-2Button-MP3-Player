@@ -18,9 +18,9 @@ Whilst playing, Press 1st button to STOP playing, press again to play NEXT track
 
 Hold down 1st button for 5 seconds to shutdown Pi. Hold down 2nd button for 5 seconds to reboot Pi. 
 
-At boot it will look for mp3 tracks in '/home/pi/Music', and on a USB stick with the format /Artist/Album/Tracks
+At boot it will look for mp3 tracks in '/home/USERNAME/Music', and on a USB stick with the format /Artist/Album/Tracks
 
-To install copy 2B_MP3_player.py to /home/pi 
+To install copy 2B_MP3_player.py to /home/USERNAME 
 
 and then 
 
