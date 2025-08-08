@@ -10,6 +10,14 @@ All buttons are connected between gpios and gnd (1k resistors in series are usua
 
 ![CONNECTIONS](CONNECTIONS.jpg)
 
+# BUTTONS
+PLAY = 19 # PLAY / STOP / SHUTDOWN (hold down for 5 seconds)
+PREV = 26 # PREVIOUS (whilst playing) / SHUFFLE (whilst stopped) / REBOOT (hold down for 5 seconds)
+# LEDS
+LED1 = 13 # READY LED / Flashes during startup checking for USB stick
+LED2 = 5  # PLAYING LED
+LED3 = 6  # SHUFFLED LED / LOADING MP3s(Flashes if no MP3s found)
+
 At power up LED1 will flash for whilst it boots, LED3 will light whilst it loads tracks, LED2 will light when ready to play.
 
 Press 2nd (PREV) button to shuffle tracks whilst not playing. LED3 will light. Press again to unshuffle, LED3 will go off.
