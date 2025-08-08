@@ -8,6 +8,8 @@ All buttons are connected between gpios and gnd (1k resistors in series are usua
 
 3 LEDs, 1st for Running , 2nd for Playing, 3rd for Shuffled.
 
+![CONNECTIONS](CONNECTIONS.jpg)
+
 At power up LED1 will flash for whilst it boots, LED3 will light whilst it loads tracks, LED2 will light when ready to play.
 
 Press 2nd (PREV) button to shuffle tracks whilst not playing. LED3 will light. Press again to unshuffle, LED3 will go off.
