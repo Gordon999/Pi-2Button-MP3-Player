@@ -26,6 +26,6 @@ and then
 
 sudo apt-get install mplayer
 
-sudo pip3 install mutagen
+sudo pip3 install mutagen --break-system-packages (or use a venv)
 
 to run python3 2B_MP3_player.py
