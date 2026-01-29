@@ -38,11 +38,14 @@ At boot it will look for mp3 tracks in '/home/USERNAME/Music', and on a USB stic
 
 To install copy 2B_MP3_player.py to /home/USERNAME 
 
+(NOTE: I am suggesting the use of --break-system-packages, this shouldn't be an issue if using this in a standalone
+pi BUT if not then learn how to use venv !!)
+
 and then 
 
 sudo apt-get install mplayer
 
-sudo pip3 install mutagen --break-system-packages (or use a venv)
+sudo pip3 install mutagen --break-system-packages
 
 to run python3 2B_MP3_player.py
 
